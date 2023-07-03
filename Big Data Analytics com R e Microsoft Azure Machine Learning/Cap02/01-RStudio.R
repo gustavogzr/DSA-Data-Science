@@ -45,3 +45,6 @@ help.search('matplot')
 ??matplot
 RSiteSearch('matplot')
 example(matplot)
+
+# Sair (fecha o RStudio)
+q()
