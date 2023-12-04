@@ -55,3 +55,45 @@ head(mtcars)
 # Últimos elementos do dataframe
 tail(pesq)
 tail(mtcars)
+
+# usar help para buscar informações sobre o mtcars
+?mtcars
+mtcars
+dim(mtcars)
+View(mtcars)
+
+# Filtro para um subset de dados que atendem a uma condição
+pesq[altura < 1.60, ]
+pesq[altura < 1.60, c('codigo', 'olhos')]
+pesq
+
+# Nomear dataframe
+names(pesq) <- c('País', 'Nome', 'Altura', 'Código', 'Olhos')
+pesq
+
+colnames(pesq) <- c('Var1', 'Var2', 'Var3', 'Var4', 'Var5')
+rownames(pesq) <- c('Obs1', 'Obs2', 'Obs3', 'Obs4', 'Obs5')
+pesq
+
+# Carregando um arquivo csv
+?read.csv
+pacientes <- data.frame(read.csv(file='pacientes.csv', header = TRUE, sep = ','))
+
+# Visualizar o dataframe
+View(pacientes)
+head(pacientes)
+summary(pacientes)
+
+# Visualizar as variáveis do dataframe
+pacientes$Diabete
+pacientes$status # vai aparecer NULL porque não existe a variável status
+pacientes$Status
+
+# Apresentar dado em histograma
+hist(pacientes$Idade)
+
+# Combinar dois dataframes
+dataset_combinado <- merge(pesq, pacientes)
+dataset_combinado
+
+16 %% 3 
