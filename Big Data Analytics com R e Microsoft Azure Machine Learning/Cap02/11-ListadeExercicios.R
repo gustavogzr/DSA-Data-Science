@@ -24,6 +24,7 @@ lista
 # Exercício 4 - Usando a função read.table() leia o arquivo do link abaixo para uma dataframe
 # http://data.princeton.edu/wws509/datasets/effort.dat
 df_effort <- read.table("effort.dat", header = TRUE)
+class(df_effort)
 df_effort
 
 # Exercício 5 - Transforme o dataframe anterior, em um dataframe nomeado com os seguintes labels:
@@ -33,8 +34,10 @@ df_effort
 
 # Exercício 6 - Imprima na tela o dataframe iris, verifique quantas dimensões existem no dataframe iris e imprima um resumo do dataset
 iris
+class(iris)
 dim(iris)
 summary(iris)
+str(iris)
 
 # Exercício 7 - Crie um plot simples usando as duas primeiras colunas do dataframe iris
 # criar um gráfico de dispersão com as colunas Sepal.Length e Sepal.Width
