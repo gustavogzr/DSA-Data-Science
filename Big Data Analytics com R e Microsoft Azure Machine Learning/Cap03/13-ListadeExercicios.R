@@ -7,7 +7,7 @@
 # Coloque entre aspas o diretório de trabalho que você está usando no seu computador
 # Não use diretórios com espaço no nome
 username_dir = Sys.getenv("USERNAME")
-setwd(paste("C:/Users/", username_dir, "/DSA-Data-Science/Big Data Analytics com R e Microsoft Azure Machine Learning/Cap02", sep = ""))
+setwd(paste("C:/Users/", username_dir, "/DSA-Data-Science/Big Data Analytics com R e Microsoft Azure Machine Learning/Cap03", sep = ""))
 getwd()
 
 # Exercício 1 - Pesquise pela função que permite listar todos os arquivo no diretório de trabalho
