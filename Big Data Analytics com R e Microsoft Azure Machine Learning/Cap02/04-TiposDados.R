@@ -1,5 +1,6 @@
 # Configurando o diretório de trabalho
-setwd("C:/Users/gusta/DSA-Data-Science/Big Data Analytics com R e Microsoft Azure Machine Learning/Cap02")
+username_dir = Sys.getenv("USERNAME")
+setwd(paste("C:/Users/", username_dir, "/DSA-Data-Science/Big Data Analytics com R e Microsoft Azure Machine Learning/Cap02", sep = ""))
 getwd()
 
 # Numeric - Todos os números criados em R são do modo numeric
