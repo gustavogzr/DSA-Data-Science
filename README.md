@@ -10,4 +10,14 @@ Formação Cientista de Dados 3.0 - Data Science Academy
 
 ## Comandos importantes
 
-git push - teste de push
+```bash
+git init # Iniciar repositório
+git clone # Clonar repositório
+git add # Adicionar arquivos ao repositório
+git add . # Adicionar todos os arquivos ao repositório
+git status # Verificar status do repositório
+git push # Enviar alterações para o repositório remoto
+git commit -m "Mensagem" # Salvar alterações no repositório local
+git pull # Atualizar repositório local com as alterações do repositório remoto
+git log # Verificar histórico de commits
+```
